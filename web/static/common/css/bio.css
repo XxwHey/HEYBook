@@ -1,0 +1,16 @@
+body {
+
+}
+
+.nav-secondary li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-secondary a {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}

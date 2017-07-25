@@ -1,0 +1,11 @@
+body {
+
+}
+
+.icon-play-circle {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.icon-play-circle:hover {
+    color: rgba(0, 0, 0, 1.0);
+}
