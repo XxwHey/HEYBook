@@ -37,13 +37,6 @@
                 <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
                 <prop key="hibernate.show_sql">true</prop>
                 <prop key="hibernate.format_sql">false</prop>
-                <!-- 全文检索 -->
-                <!--<prop key="hibernate.search.default.directory_provider">org.hibernate.search.store.FSDirectoryProvider</prop>-->
-                <!--<prop key="hibernate.search.default.indexBase">e:\\Lucene</prop>-->
-                <!--<prop key="hibernate.search.default.transaction.merge_factor">100</prop>-->
-                <!--<prop key="hibernate.search.default.transaction.max_buffered_docs">100</prop>-->
-                <!--<prop key="hibernate.search.autoregister_listeners">true</prop>-->
-                <!--<prop key="hibernate.search.indexing_strategy">manual</prop>-->
             </props>
         </property>
     </bean>
