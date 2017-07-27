@@ -7,8 +7,13 @@
     <groupId>HEY</groupId>
     <artifactId>HEYBOOK</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <!-- 打成war包 -->
+    <packaging>war</packaging>
 
     <build>
+        <!-- 生成的war文件名 -->
+        <finalName>HEY-JOB</finalName>
+
         <plugins>
             <!-- 编码和编译和JDK版本 -->
             <plugin>
@@ -18,7 +23,13 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                    <!-- 设定编码 -->
                     <encoding>utf-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
                 </configuration>
             </plugin>
         </plugins>

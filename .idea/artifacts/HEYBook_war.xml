@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HEYBook:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="HEY-JOB.war">
+      <element id="artifact" artifact-name="HEYBook:war exploded" />
+    </root>
+  </artifact>
+</component>
