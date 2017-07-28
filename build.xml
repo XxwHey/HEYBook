@@ -60,6 +60,9 @@
     <target name="compile" depends="getJar">
         <echo message="开始编译......"/>
         <javac srcdir="src/main/java" destdir="${classes}">
+            <!-- 指定编码 -->
+            <compilerarg line="-encoding UTF-8"/>
+            <!-- 指定依赖库路径 -->
             <classpath refid="class.path"/>
         </javac>
 
